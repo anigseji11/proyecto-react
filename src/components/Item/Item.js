@@ -1,8 +1,10 @@
 import './Item.css';
+import { Link } from 'react-router-dom';
 
 const Item = ({ product }) => {
+
   return (
-    <>
+    <Link to={`/item/${product.id}`}>
      
 
 <div className="card">
@@ -13,7 +15,7 @@ const Item = ({ product }) => {
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
           </p>
-          <a href="#" className="btn btn-primary">
+          <a className="btn btn-primary">
             Go somewhere
           </a>
         </div>
@@ -21,7 +23,7 @@ const Item = ({ product }) => {
 
 
      
-    </>
+    </Link>
   );
 }
 

@@ -1,5 +1,6 @@
 export const data = [
   {
+    id: 1,
     name: 'Harry Potter',
     alternate_names: [],
     species: 'human',
@@ -25,6 +26,7 @@ export const data = [
     image: 'https://hp-api.herokuapp.com/images/harry.jpg',
   },
   {
+    id: 2,
     name: 'Hermione Granger',
     alternate_names: [],
     species: 'human',
@@ -50,6 +52,7 @@ export const data = [
     image: 'https://hp-api.herokuapp.com/images/hermione.jpeg',
   },
   {
+    id: 3,
     name: 'Ron Weasley',
     alternate_names: ['Dragomir Despard'],
     species: 'human',
@@ -75,6 +78,7 @@ export const data = [
     image: 'https://hp-api.herokuapp.com/images/ron.jpg',
   },
   {
+    id: 4,
     name: 'Minerva McGonagall',
     alternate_names: [],
     species: 'human',
@@ -100,6 +104,7 @@ export const data = [
     image: 'https://hp-api.herokuapp.com/images/mcgonagall.jpg',
   },
   {
+    id: 5,
     name: 'Rubeus Hagrid',
     alternate_names: [],
     species: 'half-giant',
@@ -125,6 +130,7 @@ export const data = [
     image: 'https://hp-api.herokuapp.com/images/hagrid.png',
   },
   {
+    id: 6,
     name: 'Neville Longbottom',
     alternate_names: [],
     species: 'human',
@@ -150,6 +156,7 @@ export const data = [
     image: 'https://hp-api.herokuapp.com/images/neville.jpg',
   },
   {
+    id: 7,
     name: 'Ginny Weasley',
     alternate_names: [],
     species: 'human',
@@ -175,11 +182,12 @@ export const data = [
     image: 'https://hp-api.herokuapp.com/images/ginny.jpg',
   },
   {
+    id: 8,
     name: 'Sirius Black',
     alternate_names: ['Padfoot', 'Snuffles'],
     species: 'human',
     gender: 'male',
-    house: 'Gryffindor',
+    house: 'Eslifering',
     dateOfBirth: '03-11-1959',
     yearOfBirth: 1959,
     wizard: true,

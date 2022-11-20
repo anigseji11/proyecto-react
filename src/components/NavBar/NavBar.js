@@ -1,10 +1,10 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+
 import CartWidget from '../CartWidget/CartWidget';
+import { NavLink } from 'react-router-dom';
+
  
 import './NavBar.css';
+import ItemDetailContainer from '../../pages/ItemDetailContainer/ItemDetailContainer';
 
 const NavBar = () => {
   return (
@@ -18,13 +18,16 @@ const NavBar = () => {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Home</a>
+          <NavLink className="nav-link" to="/" >Home</NavLink>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Personajes</a>
+          <NavLink className="nav-link" to='/character/Gryffindor'>Gryffindor</NavLink>
+        </li> 
+        <li className="nav-item">
+          <NavLink className="nav-link" to="/ItemDetailContainer">Noticias</NavLink>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Noticias</a>
+          <NavLink className="nav-link" to="/Cart">Noticias</NavLink>
         </li>
       </ul>
       <form className="d-flex">
